@@ -1,5 +1,11 @@
 server/node_modules
 server/.gitignore
+server/options.txt
+server/questions.txt
+server/filereader.js
+server/queData.js
+server/.env
 
 client/node_modules
 client/.gitignore
+client/README.md

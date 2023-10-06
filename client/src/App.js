@@ -1,11 +1,12 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom'
 
-function App() {
+const App = () => {
   return (
     <>
-      <h1>Frontend working fine...</h1>
+      <Outlet />
     </>
-  );
+  )
 }
 
-export default App;
+export default App
